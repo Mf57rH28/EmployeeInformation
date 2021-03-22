@@ -20,12 +20,12 @@ public class Employee {
 	}
 
 	// setter and getter methods
-	public String getUsername() {
+	public String getUserName() {
 		return userName;
 	}
 
-	public void setUsername(String newUsername) {
-		userName = newUsername;
+	public void setUsername(String newUserName) {
+		userName = newUserName;
 	}
 
 	public String getPassword() {
@@ -36,19 +36,19 @@ public class Employee {
 		password = newPassword;
 	}
 
-	public String getFirstname() {
+	public String getEmployeeName() {
 		return employeeName;
 	}
 
-	public void setFirstname(String newEmployeeName) {
+	public void setEmployeeName(String newEmployeeName) {
 		employeeName = newEmployeeName;
 	}
 
-	public int getLastname() {
+	public int getEmployeeAge() {
 		return employeeAge;
 	}
 
-	public void setLastname(int newEmployeeAge) {
+	public void setEmployeeAge(int newEmployeeAge) {
 		employeeAge = newEmployeeAge;
 	}
 

@@ -13,7 +13,7 @@ public class TestEmployee {
 		System.out.println("I will change my User Name to :- ");
 
 		Employee1.setUsername("Employee1");
-		System.out.println("My new username is: " + Employee1.getUsername());
+		System.out.println("My new username is: " + Employee1.getUserName());
 
 		System.out.println("My password is: " + Employee1.getPassword());
 
